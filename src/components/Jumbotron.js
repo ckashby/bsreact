@@ -13,9 +13,9 @@ const JumboTron = () => {
       z-index: -2;
     }
     .overlay {
-      color: success;
+      color: salmon;
       // background-color: #fff;
-      opacity: 0.5;
+      opacity: 0.75;
     }
   `;
 
