@@ -1,7 +1,7 @@
-import React from "react";
-import { Jumbotron as Jumbo, Container } from "react-bootstrap";
-import styled from "styled-components";
-import Allee from "../assets/AlleeView.jpg";
+import React from 'react';
+import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
+import styled from 'styled-components';
+import Allee from '../assets/AlleeView.jpg';
 
 const JumboTron = () => {
   const Styles = styled.div`
@@ -23,7 +23,7 @@ const JumboTron = () => {
       <Jumbo fluid className="jumbo">
         <div className="overlay">
           <Container>
-            <h2>Learn from the best...</h2>
+            <h2>Learn from the best..</h2>
             <p>
               Jennifer (Laura Prepon, Orange is the New Black) is turning 30 and
               her best friend Stan is throwing her a party. But she is in no
