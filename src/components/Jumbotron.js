@@ -1,7 +1,7 @@
-import React from 'react';
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
-import styled from 'styled-components';
-import Allee from '../assets/AlleeView.jpg';
+import React from "react";
+import { Jumbotron as Jumbo, Container } from "react-bootstrap";
+import styled from "styled-components";
+import Allee from "../assets/AlleeView.jpg";
 
 const JumboTron = () => {
   const Styles = styled.div`
@@ -12,10 +12,11 @@ const JumboTron = () => {
       height: 300px;
       z-index: -2;
     }
-    // .overlay {
-    //   color: red;
-    //   background-color: #000;
-    // }
+    .overlay {
+      color: success;
+      // background-color: #fff;
+      opacity: 0.5;
+    }
   `;
 
   return (
